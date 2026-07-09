@@ -1,4 +1,5 @@
 *{
+  max-width: 100%;
   margin: 0;
   padding: 0%;
 }
@@ -6,28 +7,28 @@ header{
   background-color: #c8102e;
 }
 .div-main-head{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  gap: 5px;
+max-width: 1200px;
+ margin: 0px auto;
+display: flex;
+
 }
 .div-main-name{
   display: flex;
   align-items: center;
   text-align: center;
   flex-direction: column;
-  margin: 5px;
+  margin-top: 30px;
 }
 .photo{
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+ border-radius: 100%;
   margin-left: 150px;
+  padding: 30px;
 }
 header h1{
   color: white;
   font-weight: bold;
-  margin-top: 20px;
   font-size: 40px;
 }
 header p{
@@ -51,7 +52,7 @@ font-weight: bold;
 nav{
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 1000;
 }
 
 nav ul {  
@@ -76,7 +77,6 @@ nav li {
 .about{
   max-width: 1200px;
   margin:50px auto;
-  
   justify-content: center;
 }
 .about h1{
@@ -95,3 +95,81 @@ nav li {
 /* end of about */
 
 /* start of skills */
+.skill-sec{
+  max-width: 1200px;
+  margin: 50px auto;
+  text-align: left;
+  justify-content: center;
+}
+.sec-nav{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  gap: 30px;
+  margin: 30px;
+  border: #c8102e solid 3px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.sec-nav-1{
+  border: #c8102e solid 2px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.skill-sec h2{
+  font-weight: bolder;
+  color: #c8102e;
+  border-bottom: #c8102e solid 5px;
+  display: inline-block;
+}
+.icon{
+height: 40px;
+}
+/* end of skill */
+
+.Contact{
+  flex-direction: row;
+  display: flex;
+   max-width: 1200px;
+  margin: 50px auto;
+  justify-content: center;
+ 
+  gap: 30px;
+}
+.contact-h2{
+  color: #c8102e;
+  font-weight: bold;
+  font-size: 40px;
+  border-bottom: solid 2px #c8102e;
+  text-align: center;
+  
+ 
+}
+.contact-div-1{
+flex: 1;
+  align-items: center;
+  justify-content: center;
+  border: #c8102e solid 2px;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  }
+
+.contact-div-2{
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border: #c8102e solid 2px;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+
+}
+.contact-div-2 form {
+  width: 100%;
+}
+
+ 
+
+
+
