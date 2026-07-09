@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0%;
+}
+header{
+  background-color: #c8102e;
+}
+.div-main-head{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+.div-main-name{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 5px;
+}
+.photo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 150px;
+}
+header h1{
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 40px;
+}
+header p{
+font-size: 25px;
+margin-top: 10px;
+font-weight: bold;
+color: whitesmoke;
+}
+.btn{
+  margin: 20px;
+  margin-top: 40px;
+  padding: 10px 23px;
+  background-color:white ;
+  color: #c8102e;
+  border: none;
+border-radius: 5px;
+font-weight: bold;
+}
+/* end of banner */
+/* nav bar start  */
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {  
+  list-style: none;
+  gap: 70px;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+  padding: 10px;
+  border-bottom: 3px solid #c8102e;
+}
+nav li {
+  text-decoration: none;
+  text-align: center;
+  color: #c8102e;
+  font-weight: bold;
+}
+/* nav bar ends */
+
+/* start of about */
+.about{
+  max-width: 1200px;
+  margin:50px auto;
+  
+  justify-content: center;
+}
+.about h1{
+  color: #c8102e;
+ text-align: left;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #c8102e;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.about p{
+ 
+  font-size: 20px;
+  text-align: left;
+}
+/* end of about */
+
+/* start of skills */
